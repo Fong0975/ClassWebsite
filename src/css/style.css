@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,header,div
+{
+    font-family:Microsoft JhengHei, 微軟正黑體;
+	color:#303030;
+	font-size:12pt;
+}
+
+.col-md-2
+{
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 1px 10px 1px #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-header
+{
+    background-position: left top;
+    background-image: url('../../Images/WebPic/Header_Title_Back.jpg');
+    min-height: 150px;
+    padding:20px 5px 5px 20px;
+}
+
+dd
+{
+    color:#999999;
+    }
+    
+    input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea
+        {
+            margin: 5px;
+            font-family: 微軟正黑體;
+            font-size: 12pt;
+            color: #666666;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            background: #f8f8f8;
+            border-radius: 6px;
+            border: solid 1px #e5e5e5;
+            outline: 0;
+            padding: 0px 5px 0px 5px;
+            text-decoration: none;
+            width: 90%;
+        }
+ 
+ 
+        
+        input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.button,
+	button {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #FDB768;
+    border-radius: 3.5em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 3.5em;
+    line-height: 3.5em;
+    outline: 0;
+    padding: 0 2em 0 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin:5px 5px 5px 5px;
+}
+
+        type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		.button:hover,
+		button:hover {
+    background-color: #FED8AD;
+}

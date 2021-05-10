@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/WebPage/Index.aspx" title="首頁"  description="">
+        
+        <siteMapNode url="~/WebPage/Login.aspx" title="帳戶登入"  description="">
+            <siteMapNode url="~/WebPage/Register.aspx" title="教師註冊"  description="" />
+            <siteMapNode url="~/WebPage/FPassword.aspx" title="尋找密碼"  description="" />
+        </siteMapNode>
+        
+        
+        <siteMapNode url="~/WebPage/Admin/Account_Home.aspx" title="管理員首頁"  description="" >
+            <siteMapNode url="~/WebPage/Admin/Admin_Account_NotApproved.aspx" title="帳戶啟動"  description="" />
+            <siteMapNode url="~/WebPage/Admin/ClassManage.aspx" title="班級管理"  description="" />
+        </siteMapNode>
+        
+        
+        <siteMapNode url="~/WebPage/Student/Student_Home.aspx" title="學生首頁"  description="" >
+            
+            <siteMapNode url="~/WebPage/Student/Personal.aspx" title="個人作業總覽"  description="">
+                <siteMapNode url="~/WebPage/Student/Stroke.aspx" title="事項詳情"  description="" />
+            </siteMapNode>
+            
+            <siteMapNode url="~/WebPage/Student/Profile.aspx" title="個人資料編輯"  description="" >
+                <siteMapNode url="~/WebPage/Student/EmailModify.aspx" title="信箱修改"  description="" />
+            </siteMapNode>
+        </siteMapNode>
+        
+        
+        <siteMapNode url="~/WebPage/Teacher/Teacher_Home.aspx" title="教師首頁"  description="" >
+            
+            <siteMapNode url="~/WebPage/Teacher/Teacher_Profile.aspx" title="個人資料編輯"  description="" >
+                <siteMapNode url="~/WebPage/Teacher/EmailModify.aspx" title="信箱修改"  description="" />
+            </siteMapNode>
+
+            <siteMapNode url="~/WebPage/Teacher/Teacher_Class.aspx" title="班級清單"  description="" />
+            <siteMapNode url="~/WebPage/Teacher/Teacher_CreatClass.aspx" title="班級創建"  description="" />
+
+
+        </siteMapNode>
+
+
+        <siteMapNode url="~/WebPage/Class/Home.aspx" title="班級首頁"  description="" >
+
+            <siteMapNode url="~/WebPage/Class/Timetable.aspx" title="班級課表"  description="" >
+                <siteMapNode url="~/WebPage/Class/Cadres/Edit_Timetable.aspx" title="課表修改"  description="" />
+            </siteMapNode>
+
+            <siteMapNode url="~/WebPage/Class/Calendar.aspx" title="班級行事曆"  description="" >
+                <siteMapNode url="~/WebPage/Class/Stroke.aspx" title="事件詳情"  description="" />
+                <siteMapNode url="~/WebPage/Class/Cadres/Cadres_Storke.aspx" title="事件編輯"  description="" />
+            </siteMapNode>
+
+            <siteMapNode url="" title="進階管理"  description="" >
+                <siteMapNode url="~/WebPage/Class/Cadres/ClassManage.aspx" title="班級資訊"  description="">
+                    <siteMapNode url="~/WebPage/Class/Cadres/ClassManage_Teacher.aspx" title="導師編輯"  description="" />
+                </siteMapNode>
+                <siteMapNode url="~/WebPage/Class/Cadres/Teacher_InsertStudent.aspx" title="成員管理"  description="" />
+            </siteMapNode>
+
+            <siteMapNode url="~/WebPage/Class/Forum.aspx" title="班級討論區"  description="" />
+            <siteMapNode url="~/WebPage/Class/Cadres.aspx" title="班級幹部"  description="" />
+            <siteMapNode url="~/WebPage/Class/Member.aspx" title="班級成員"  description="" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
